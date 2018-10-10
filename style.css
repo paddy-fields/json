@@ -1,0 +1,47 @@
+h1,h2,h3,p {
+	font-family: Courier;
+}
+
+
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+nav {
+	padding: 20px 0;
+}
+
+button {
+	padding: 10px 30px;
+	background: blue;
+	color: white;
+	cursor: pointer;
+}
+
+#heading {
+	padding: 20px 0;
+}
+
+#listing {
+
+}
+
+.post__block {
+	transition: 0.5s ease;
+	border: 1px solid #E2E6E6;
+	padding: 20px 10px;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.post__block:hover {
+	background: #E1E1E1;
+	transform: scale(1.01);
+}
+
+.post__block--comment {
+	background-color: #F3F3F3;
+	padding: 20px;
+	margin-bottom: 30px;
+}
